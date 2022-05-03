@@ -3,7 +3,7 @@ package leetcode.strings;
 public class FirstUniqChar {
 
     public static void main(String[] args) {
-       String word = "leetcode";
+       String word = "loveleetcode";
 
        int first = firstUniqChar(word);
 

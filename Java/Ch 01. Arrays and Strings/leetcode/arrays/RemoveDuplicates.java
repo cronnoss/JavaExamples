@@ -1,11 +1,13 @@
 package leetcode.arrays;
 
+import java.util.Arrays;
+
 public class RemoveDuplicates {
 
     public static void main(String[] args) {
-        int[] nums = {0,0,1,1,1,2,2,3,3,4};
-        int  length = removeDuplicates(nums);
-        System.out.println(length + "nums = " + nums.toString());
+        int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
+        int quantityOfRemovedDuplicates = removeDuplicates(nums);
+        System.out.println(quantityOfRemovedDuplicates + ", nums = " + Arrays.toString(nums));
     }
 
     public static int removeDuplicates(int[] nums) {
